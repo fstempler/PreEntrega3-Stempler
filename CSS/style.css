@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+body{
+    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1980' height='1080' preserveAspectRatio='none' viewBox='0 0 1980 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1197%26quot%3b)' fill='none'%3e%3crect width='1980' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient1198)'%3e%3c/rect%3e%3cpath d='M1980 0L1165.62 0L1980 40.42z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1165.62 0L1980 40.42L1980 579.8L1023.6399999999999 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1023.64 0L1980 579.8L1980 715.1899999999999L390.53999999999996 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M390.53999999999996 0L1980 715.1899999999999L1980 778.65L165.12999999999997 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 1080L524.04 1080L0 823.1z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 823.1L524.04 1080L906.74 1080L0 696.2z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 696.2L906.74 1080L1266.57 1080L0 387.81000000000006z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 387.81000000000006L1266.57 1080L1772.29 1080L0 224.39000000000007z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1197'%3e%3crect width='1980' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='11.36%25' y1='-20.83%25' x2='88.64%25' y2='120.83%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1198'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0.2'%3e%3c/stop%3e%3cstop stop-color='rgba(214%2c 40%2c 40%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-color: #171717;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+  
+}
+
+
+
+  
+.main1 { 
+    background-image: url(../img/disco-vinilo-aspecto-vintage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+.main2 {
+    margin-top: 20px;
+    background-color: #17171798;
+    
+    
+}
+
+.main22 {
+    background-color: #17171798; 
+    
+    
+}
+.main222 {
+    background-color: #17171798; 
+    border-radius: 0 0 5px 5px;  
+    
+}
+
+iframe{
+    margin-top: 20px;
+}
+    
+
+.footer {
+    border-radius: 5px; 
+    background-color: #17171798;    
+    margin-top: 30px;
+}    
+
+
+
+#logo{
+    width: 200px;
+    /*margin: 0 720px 0 0;*/
+    
+}
+
+
+.title{
+    font-weight: 900;
+    font-size: 8rem;
+    margin: 20px;
+    
+        
+}
+.main2--title{
+    font-weight: 900;
+    color: #d62828; 
+    font-weight: 8rem; 
+    
+}
+
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+button{
+    display: inline-block;
+    background-color: #000000a1;    
+    border-radius: 5px;
+    padding: 10px;
+    justify-self: center;
+    margin: 0 20px;
+    border: 1px #ffffff;
+    font-weight: bold;
+     
+}     
+button:hover{
+    
+    background-color: #ffffff85;
+    color: #00000070;
+}
+button:active{
+    background-color: #ffffff;
+    color: black;
+}
+
+.button--main2{
+    margin: 5px auto;
+    background-color: #00000056;    
+
+}
+
+
+.social{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    align-self: center;
+}
+
+.footer11--logo{
+    width: 200px;
+    align-self: center;      
+}
+  
+
+.playlist img{
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px;       
+}
+
+.playlist{
+    height: 110px;
+    width: 110px;
+    margin: auto auto;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+
+@media (min-width: 576px){
+    .title{
+        font-size: 4rem;
+    }
+    
+    .main2--title{
+        font-size: 3rem;
+        text-align: left;
+    }
+    .main2{
+        border-radius: 5px;
+    }
+    .main22{
+        border-radius: 5px;
+    }
+    .main222{
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 768px){
+    
+    .title{
+        font-size: 7rem;
+    }
+    .main2--title{
+        font-size: 6rem;
+    }
+    .main2{
+        border-radius: 5px;
+    }
+    .main22{
+        border-radius: 5px;
+    }
+    .main222{
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 992px){
+    
+    .title{
+        font-size: 8rem;
+    }
+    .main2--title{
+        font-size: 8rem;
+    }
+    .main2 {
+        border-radius: 5px 0 0 0;
+        margin-top: 20px;
+        
+    }
+    
+    .main22 {
+        border-radius: 0 5px 0 0;
+        margin-top: 20px;  
+        
+    }
+    .main222{
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+
+ 
