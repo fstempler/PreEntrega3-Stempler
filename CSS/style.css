@@ -61,14 +61,13 @@ iframe{
 
 #logo{
     width: 200px;
-    /*margin: 0 720px 0 0;*/
+    
     
 }
 
 
 .title{
     font-weight: 900;
-    font-size: 8rem;
     margin: 20px;
     
         
@@ -76,7 +75,7 @@ iframe{
 .main2--title{
     font-weight: 900;
     color: #d62828; 
-    font-weight: 8rem; 
+    
     
 }
 
@@ -114,18 +113,15 @@ button:active{
 
 }
 
-
-.social{
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-    align-self: center;
+.subtitle{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.content{
+    margin-left: 10px;
 }
 
-.footer11--logo{
-    width: 200px;
-    align-self: center;      
-}
+
   
 
 .playlist img{
