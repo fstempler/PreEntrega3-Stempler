@@ -69,6 +69,7 @@ iframe{
 .title{
     font-weight: 900;
     margin: 20px;
+    color: #ffffff;
     
         
 }
@@ -86,7 +87,7 @@ iframe{
     
 }
 
-button{
+.button{
     display: inline-block;
     background-color: #000000a1;    
     border-radius: 5px;
@@ -140,6 +141,7 @@ button:active{
 }
 
 
+
 @media (min-width: 576px){
     .title{
         font-size: 4rem;
@@ -158,6 +160,8 @@ button:active{
     .main222{
         border-radius: 5px;
     }
+    
+    
 }
 
 @media (min-width: 768px){
@@ -165,6 +169,7 @@ button:active{
     .title{
         font-size: 7rem;
     }
+
     .main2--title{
         font-size: 6rem;
     }
@@ -184,6 +189,7 @@ button:active{
     .title{
         font-size: 8rem;
     }
+
     .main2--title{
         font-size: 8rem;
     }
@@ -201,6 +207,7 @@ button:active{
     .main222{
         border-radius: 0 0 5px 5px;
     }
+    
 }
 
 
