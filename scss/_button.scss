@@ -1,0 +1,26 @@
+.button{
+    display: inline-block;
+    background-color: #000000a1;    
+    border-radius: 5px;
+    padding: 10px;
+    justify-self: center;
+    margin: 0 20px;
+    border: 1px $title_1_color;
+    font-weight: bold;
+     
+     
+    &:hover{
+        background-color: #ffffff85;
+        color: #00000070;
+    }
+    &:active{
+        background-color: $title_1_color;
+        color: black;
+    }
+}
+
+.button--main2{
+    margin: 5px auto;
+    background-color: #00000056;    
+
+}

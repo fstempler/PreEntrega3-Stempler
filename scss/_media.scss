@@ -1,0 +1,67 @@
+@media (min-width: 576px){
+    .title{
+        font-size: 4rem;
+    }
+    
+    .main2--title{
+        font-size: 3rem;
+        text-align: left;
+    }
+    .main2{
+        border-radius: 5px;
+    }
+    .main22{
+        border-radius: 5px;
+    }
+    .main222{
+        border-radius: 5px;
+    }
+    
+    
+}
+
+@media (min-width: 768px){
+    
+    .title{
+        font-size: 7rem;
+    }
+
+    .main2--title{
+        font-size: 6rem;
+    }
+    .main2{
+        border-radius: 5px;
+    }
+    .main22{
+        border-radius: 5px;
+    }
+    .main222{
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 992px){
+    
+    .title{
+        font-size: 8rem;
+    }
+
+    .main2--title{
+        font-size: 8rem;
+    }
+    .main2 {
+        border-radius: 5px 0 0 0;
+        margin-top: 20px;
+        
+    }
+    
+    .main22 {
+        border-radius: 0 5px 0 0;
+        margin-top: 20px;  
+        
+    }
+    .main222{
+        border-radius: 0 0 5px 5px;
+    }
+    
+}
