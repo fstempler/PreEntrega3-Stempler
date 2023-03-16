@@ -1,8 +1,8 @@
 
-
-
-
-
+@mixin title ($title_1_color) {
+    font-weight: 900;
+        color: $title_1_color;
+}
 
   
 .main1 { 
@@ -14,18 +14,18 @@
 }
 .main2 {
     margin-top: 20px;
-    background-color: #17171798;
+    background-color: $bg_color;
     
     
 }
 
 .main22 {
-    background-color: #17171798; 
+    background-color: $bg_color; 
     
     
 }
 .main222 {
-    background-color: #17171798; 
+    background-color: $bg_color; 
     border-radius: 0 0 5px 5px;  
     
 }
@@ -37,7 +37,7 @@ iframe{
 
 .footer {
     border-radius: 5px; 
-    background-color: #17171798;    
+    background-color: $bg_color;    
     margin-top: 30px;
 }    
 
@@ -50,16 +50,15 @@ iframe{
 }
 
 
+
 .title{
-    font-weight: 900;
-    margin: 20px;
-    color: #ffffff;
+    @include title($title_1_color)
+    
     
         
 }
 .main2--title{
-    font-weight: 900;
-    color: #d62828; 
+    @include title($title_2_color)
     
     
 }
@@ -67,7 +66,7 @@ iframe{
 
 .link {
     text-decoration: none;
-    color: #ffffff;
+    color: $title_1_color;
     
 }
 

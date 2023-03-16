@@ -1,0 +1,9 @@
+.tran{
+    transition: all 2s;
+    
+    &:hover{
+        transform: rotateY(180deg);
+        
+    }
+
+}
